@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:elevation="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Bookify"
+        android:textColor="#E90B0B"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Login"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="344dp"
+        android:layout_height="344dp"
+        android:background="#FDFDFD"
+        android:backgroundTint="@color/white"
+        android:elevation="20dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="269dp">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="273dp"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="username"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="272dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="password"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F00808"
+            android:text="login"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="262dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="153dp"
+            android:layout_height="38dp"
+            android:text="stay sign in"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="209dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="214dp"
+        android:layout_height="29dp"
+        android:text="Don't have an account?"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="136dp"
+        android:layout_height="23dp"
+        android:text="Create an Account"
+        android:textColor="#2641DC"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="154dp"
+        android:layout_height="131dp"
+        app:srcCompat="@drawable/Untitled"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
